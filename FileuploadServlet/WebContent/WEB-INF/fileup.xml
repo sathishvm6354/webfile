@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>   
+
+<servlet>         
+
+<servlet-name>upload4</servlet-name>                         
+
+<servlet-class>FileUploadServlet</servlet-class>            
+
+</servlet>  
+  
+
+
+ <servlet-mapping>     
+      
+
+  <servlet-name>upload4</servlet-name>            
+
+  <url-pattern>FileUploadServlet</url-pattern>     
+        
+           
+
+</servlet-mapping>
+
+   
+
+<servlet>         
+
+<servlet-name>upload5</servlet-name>                         
+
+<servlet-class>ViewServlet</servlet-class>                 
+
+</servlet>   
+   
+<servlet-mapping>        
+      
+
+  <servlet-name>upload5</servlet-name>             
+
+  <url-pattern>ViewServlet</url-pattern>       
+        
+           
+
+</servlet-mapping>   
+
+
+ <welcome-file-list>  
+    
+ 
+  <welcome-file>fileupload.html</welcome-file>           
+          
+
+</welcome-file-list>  
+ 
+
+</web-app>
